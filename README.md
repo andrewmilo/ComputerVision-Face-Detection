@@ -1,23 +1,20 @@
 This is a Computational Vision project that uses the Viola Jones algorithm to do face detection.
 
-1. HaarDetection.cpp contains the first 2 steps of the Viola Jones Algorithm.
+## Details
+	HaarDetection.cpp contains the first 2 steps of the Viola Jones Algorithm.
+	FaceDetection.cpp deals with the final part of Viola Jones.
+	
+	FaceDetection then takes 1 Parameter, an image.
+	HaarDetection also takes 1 Parameter, an image.
+	
+	Example: ./FaceDetection gma.pgm
+	Example: ./HaarDetection gma.pgm
 
-2. FaceDetection.cpp deals with the final part of Viola Jones.
+## To Compile
+	cmake . ( DOT included, Make sure CMake is installed on your system )
+	make
 
-TO COMPILE:
-
-Type the following in order:
-
-1. cmake . ( DOT included, Make sure CMake is installed on your system )
-2. make
-
-FaceDetection then takes 1 Parameter, an image.
-HaarDetection also takes 1 Parameter, an image.
-
-Example: ./FaceDetection gma.pgm
-Example: ./HaarDetection gma.pgm
-
-Group Project by:
+## Group Project by
 	Andrew Miloslavsky
 	Himanshu Tanwar
 	Yuliya Emelyanova
