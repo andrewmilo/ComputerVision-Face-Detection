@@ -1,4 +1,4 @@
-This is a Computational Vision project that uses the Viola Jones (https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework) framework to do face detection.
+This is a Computational Vision project that uses the Viola Jones framework to do face detection.
 
 ## Details
 	HaarDetection.cpp contains the first 2 steps of the Viola Jones Algorithm.
