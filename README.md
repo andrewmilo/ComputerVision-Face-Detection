@@ -13,6 +13,12 @@ This is a Computational Vision project that uses the Viola Jones algorithm to do
 ## To Compile
 	cmake . ( DOT included, Make sure CMake is installed on your system )
 	make
+	
+## Before
+![alt text](gma.png)
+
+## After
+![alt text](output/output.png)
 
 ## Group Project by
 	Andrew Miloslavsky
